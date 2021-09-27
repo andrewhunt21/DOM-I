@@ -104,3 +104,20 @@ visionH4.textContent = siteContent["main-content"]["vision-h4"];
 
 const visionContent = visionH4.nextElementSibling;
 visionContent.textContent = siteContent["main-content"]["vision-content"];
+
+
+const contact = document.querySelector(".contact h4");
+contact.textContent = siteContent["contact"]["contact-h4"];
+
+const address = contact.nextElementSibling;
+address.textContent = siteContent["contact"]["address"];
+
+const phone = address.nextElementSibling;
+phone.textContent = siteContent["contact"]["phone"];
+
+const email = phone.nextElementSibling;
+email.textContent = siteContent["contact"]["email"];
+
+
+const copyright = document.querySelector("footer p");
+copyright.textContent = siteContent["footer"]["copyright"];
