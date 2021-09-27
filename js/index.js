@@ -70,3 +70,37 @@ const ctaImg = document.querySelector("#cta-img");
 ctaImg.setAttribute('src', siteContent["cta"]["img-src"]);
 
 
+const featureH4 = document.querySelector(".main-content div:nth-of-type(1) h4");
+featureH4.textContent = siteContent["main-content"]["features-h4"];
+
+const featuresContent = featureH4.nextElementSibling;
+featuresContent.textContent = siteContent["main-content"]["features-content"];
+
+const aboutH4 = document.querySelector(".main-content div:nth-of-type(2) h4");
+aboutH4.textContent = siteContent["main-content"]["about-h4"];
+
+const aboutContent = aboutH4.nextElementSibling;
+aboutContent.textContent = siteContent["main-content"]["about-content"];
+
+
+const middleImg = document.querySelector(".middle-img");
+middleImg.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
+
+
+const servicesH4 = document.querySelector(".bottom-content div:nth-of-type(1) h4");
+servicesH4.textContent = siteContent["main-content"]["services-h4"];
+
+const servicesContent = servicesH4.nextElementSibling;
+servicesContent.textContent = siteContent["main-content"]["services-content"];
+
+const productH4 = document.querySelector(".bottom-content div:nth-of-type(2) h4");
+productH4.textContent = siteContent["main-content"]["product-h4"];
+
+const productContent = productH4.nextElementSibling;
+productContent.textContent = siteContent["main-content"]["product-content"];
+
+const visionH4 = document.querySelector(".bottom-content div:nth-of-type(3) h4");
+visionH4.textContent = siteContent["main-content"]["vision-h4"];
+
+const visionContent = visionH4.nextElementSibling;
+visionContent.textContent = siteContent["main-content"]["vision-content"];
