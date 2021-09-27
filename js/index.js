@@ -121,3 +121,17 @@ email.textContent = siteContent["contact"]["email"];
 
 const copyright = document.querySelector("footer p");
 copyright.textContent = siteContent["footer"]["copyright"];
+
+
+// const green = document.querySelector("a");
+// green.forEach(()=> style.color = "green");
+
+const consume = document.createElement("a");
+consume.textContent = "Consume";
+consume.href = "#";
+document.querySelector('nav').appendChild(consume);
+
+const obey = document.createElement("a");
+obey.textContent = "Obey";
+obey.href = "#";
+document.querySelector('nav').prepend(obey);
