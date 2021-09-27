@@ -123,8 +123,8 @@ const copyright = document.querySelector("footer p");
 copyright.textContent = siteContent["footer"]["copyright"];
 
 
-// const green = document.querySelector("a");
-// green.forEach(()=> style.color = "green");
+const green = document.querySelectorAll("nav a");
+green.forEach(elem => elem.style.color = "green");
 
 const consume = document.createElement("a");
 consume.textContent = "Consume";
